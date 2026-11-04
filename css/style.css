@@ -1,0 +1,51 @@
+body{
+    background:
+        linear-gradient(to right, white,rgb(173, 173, 173));
+}
+div{
+    display: grid;
+    place-items: center;
+    height: 100vh; 
+       
+}
+fieldset {
+   
+    border: 2px solid transparent;
+    border-radius: 25px;
+    width: 200px;
+    height: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background-color: rgb(244, 242, 245);
+
+        box-shadow:
+        0 0 10px  rgb(2, 227, 239),
+        0 0 25px rgb(252, 4, 194);
+    display: flex;
+    flex-direction: column;    
+    align-items: center;    
+   
+       
+}
+p{
+    text-align: center ;
+}
+input{
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 230px;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background-color: rgb(244, 242, 245);
+
+        box-shadow:
+        0 0 10px  rgb(2, 227, 239),
+        0 0 25px rgb(252, 4, 194);
+}
+button{
+    background-color: aqua;
+    border-radius: 10px;
+    height: 35px;
+
+}
