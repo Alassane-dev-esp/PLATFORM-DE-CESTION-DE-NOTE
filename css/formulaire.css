@@ -12,7 +12,8 @@
 }
 
 .div3{
-    background-color: rgb(198, 187, 187);
+    background: 
+        linear-gradient(to right,rgb(239, 234, 234), rgb(221, 242, 188)  );
     height: 500px;
     width: 400px;
     border-left: 30px solid antiquewhite;
